@@ -90,3 +90,30 @@
 // u1.changeName();
 // console.log(u1);
 // Parameter Properties
+//Getters and Setters
+// class User {
+//   constructor(
+//     public _name: string,
+//     public _age: number,
+//   ) {}
+//   get name() {
+//     //This getter function will directly gives the variable value
+//     return this._name;
+//   }
+//   set age(value: number) {
+//     this._age = value;
+//   }
+// }
+// let u1 = new User("salman", 25);
+// console.log(u1.name);
+// u1.age = 15;
+// console.log(u1);
+//Static members - variables ko bina class ka bina instance banai use karsakte agar uske samne static keyword lagaye tho
+// class Library {
+//    version = 1.52;
+//   static getRandomNumber() {
+//     return Math.random();
+//   }
+// }
+// let l1 = new Library(); //Magar static members instance me available nahi rehtha
+// Abstract classess and methods                     
