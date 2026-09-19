@@ -88,4 +88,14 @@
 // }
 // abcd("hey", "hello");
 
+// import { addPayment,getDetails } from "./Payment";
 
+// Type Assertions
+// let a: any = 152;
+// (a as string).toLowerCase;
+// // Also we can write
+// <string>a;
+
+// Type casting
+// let a = Number("12");
+// console.log(a)
